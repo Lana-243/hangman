@@ -1,6 +1,6 @@
 # Hangman
 
-This game is played in terminal.
+This Ruby game in is played in terminal.
 
 To run it enter:
 
