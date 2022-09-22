@@ -1,3 +1,4 @@
+[![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)
 # Hangman
 
 This is a Ruby word-guessing game in is played in terminal.
