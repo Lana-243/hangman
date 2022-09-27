@@ -1,6 +1,6 @@
 class Game
   TOTAL_ERRORS_ALLOWED = 7
-
+  
   def initialize(word)
     @letters = word.upcase.chars
     @user_guesses = []
