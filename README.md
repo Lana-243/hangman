@@ -3,6 +3,11 @@
 
 Игра для терминала, написанная на Ruby.
 
+## Пример интерфейса:
+
+![image](https://user-images.githubusercontent.com/84347249/175002377-30698e49-645c-4a34-bd1b-50a7e4ac7ed6.png)
+
+
 ## Правила:
 
 Программа загадывает слово.
@@ -37,9 +42,5 @@ bundle exec ruby main.rb
 ```
 
 Если хочешь использовать свои слова, то можешь скорректировать файл /data/words.txt
-
-Пример интерфейса:
-
-![image](https://user-images.githubusercontent.com/84347249/175002377-30698e49-645c-4a34-bd1b-50a7e4ac7ed6.png)
 
 # Удачи!
