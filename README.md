@@ -1,45 +1,45 @@
 [![forthebadge](http://forthebadge.com/images/badges/made-with-ruby.svg)](http://forthebadge.com)
 # Hangman
 
-This is a Ruby word-guessing game in is played in terminal.
+Игра для терминала, написанная на Ruby.
 
-## The rules:
+## Правила:
 
-The program chooses a random word.
-Your task is to guess it. You have 7 attempts.
+Программа загадывает слово.
 
-## How to start the game:
+Твоя задача - его разгадать.
 
-First, you need to install bundler.
-Run this code in console:
+Ты можешь отгадывать буквы по одной, внося их в терминал и нажав на enter.
+
+Всего можно допустить только семь ошибок.
+
+Если отгадаешь слово полностью, то выигрываешь!
+
+## Как запустить игру:
+
+Сначала тебе надо установить bundler.
+
+Запусти код в консоли:
 
 ```
 gem install bundler
 ```
-After that install gems with the command:
+После bundler установи требуемые библиотеки:
 
 ```
 bundle install
 ```
 
-And finally to run the game just enter:
+И наконец, для запуска игры:
 
 ```
 bundle exec ruby main.rb
 ```
 
-## How to play:
-After the game starts begin to enter letters in Russian.
+Если хочешь использовать свои слова, то можешь скорректировать файл /data/words.txt
 
-For each error you lose a point.
-
-If you lose 7 points the game ends.
-
-If you get to guess the full word you win!
-
-
-Example of interface:
+Пример интерфейса:
 
 ![image](https://user-images.githubusercontent.com/84347249/175002377-30698e49-645c-4a34-bd1b-50a7e4ac7ed6.png)
 
-# Good luck!
+# Удачи!
